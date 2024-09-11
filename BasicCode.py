@@ -3,3 +3,9 @@ def hello_world():
 
 
 hello_world()
+
+name = input("What is your name: ")
+
+def greet(name):
+    print(f"Hello, {name}!")
+greet(name)
